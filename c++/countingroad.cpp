@@ -16,17 +16,6 @@ int main()
 		}
 
 	}
-/*
-	for(int i = 0; i < n;i++)
-	{
-		for(int j = 0; j < n; j++)
-		{
-			cout <<data.at(i).at(j);
-		}
-		cout << endl;
-
-	}
-*/
 
 	while(fg1 < m)
 	{
@@ -38,22 +27,15 @@ int main()
 		fg1++;
 	}
 
-
 	for(int i = 0; i < n;i++)
 	{
 		int road = 0;
 		for(int j = 0; j < n; j++)
 		{
-			//cout <<data.at(i).at(j);
 			if(data.at(i).at(j) > 0)
 				road += data.at(i).at(j);
 		}	
 		cout << road << endl;
-
 	}
-
-
-
-
 }
 
