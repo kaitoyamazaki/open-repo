@@ -26,7 +26,7 @@ int main()
 				maru[fg] = 1;
 				fg++;
 			}
-		
+
 			else if(a[i] != b[i])
 			{
 				maru[fg] = 0;
@@ -55,7 +55,6 @@ int main()
 				a.insert(i," ");
 			}
 		}
-
 		cout << a << endl;
 		cout << b << endl;
 	}
@@ -67,7 +66,6 @@ int main()
 		else
 			cout << "✗";
 	}
-
 	cout << endl;
 }
 
